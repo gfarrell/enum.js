@@ -1,0 +1,17 @@
+{
+  "name": "Enum.js",
+  "main": "enum.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gfarrell/enum.js",
+  "authors": [
+    "Gideon Farrell <me@gideonfarrell.co.uk>"
+  ],
+  "description": "Javascript enum objects",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "enum"
+  ],
+  "license": "MIT"
+}
