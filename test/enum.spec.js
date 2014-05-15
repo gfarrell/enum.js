@@ -9,6 +9,7 @@ define(['jasmine/boot', 'enum'], function(jasmine, Enum) {
 			expect(e.FIRST_VALUE).toBeDefined();
 			expect(e.SECOND).toBeDefined();
 			expect(e.THIRD_VAL).toBeDefined();
+			expect(e[4]).toBeDefined();
 
 			expect(e['First Value']).not.toBeDefined();
 			expect(e.second).not.toBeDefined();
