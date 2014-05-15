@@ -13,5 +13,9 @@
   "keywords": [
     "enum"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "requirejs": "*",
+    "jasmine": "~2.0.0"
+  }
 }
