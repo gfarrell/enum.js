@@ -12,10 +12,10 @@ Using Enum.js is quite simple:
 
 This will give you an object with the following key-value pairings:
 
-    MyEnum.FIRST_VALUE;	// 1
-    MyEnum.SECOND;		// 2
-    MyEnum.THIRD_VAL;	// 3
-    MyEnum.4;			// 4
+    MyEnum.FIRST_VALUE; // 1
+    MyEnum.SECOND;      // 2
+    MyEnum.THIRD_VAL;   // 3
+    MyEnum[4];	        // 4
     
 Enum.js automatically underscores and capitalises the entire key, to make sure it's standard.
 
