@@ -27,8 +27,7 @@
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	THE SOFTWARE.
 */
-/* global define */
-define(function() {
+(function() {
 	'use strict';
 
 	var processKey = function(k) {
@@ -70,5 +69,13 @@ define(function() {
 		return e;
 	};
 
-	return Enum;
-});
+	// AMD - requirejs
+	if(typeof define == 'function') {
+		define([], function() { return Enum; });
+	}
+
+	// Node.js / CommonJS module
+	if(typeof module != 'undefined') {
+		module.exports = Enum;
+	}
+})();
