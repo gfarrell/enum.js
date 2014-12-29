@@ -1,0 +1,25 @@
+{
+  "name": "Enum",
+  "version": "0.1.0",
+  "description": "Enum library",
+  "main": "enum.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfarrell/enum.js.git"
+  },
+  "keywords": [
+    "enum"
+  ],
+  "author": "Gideon Farrell <me@gideonfarrell.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfarrell/enum.js/issues"
+  },
+  "homepage": "https://github.com/gfarrell/enum.js"
+}
