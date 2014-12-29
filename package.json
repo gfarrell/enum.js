@@ -1,6 +1,6 @@
 {
   "name": "Enum",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enum library",
   "main": "enum.js",
   "directories": {
